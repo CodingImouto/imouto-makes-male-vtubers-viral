@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #00B8FB;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: #D3F4FF;
+    background-image: url(https://files.catbox.moe/osyu8i.png);
+}
+
+.imo-img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 40px;
+    max-width: 400px;
+    align-items: center;
+}
+
+.imo-img img {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.imo-img p {
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.content {
+    width: 1000px;
+    height: 450;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 130px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #7cd9f8;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+#phrase {
+    font-size: 20px;
+    margin-bottom: 24px;
+    min-height: 48px;
+    text-align: center;
+}
+
+#new-phrase-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #F98BB0;
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: 2px solid #F98BB0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#new-phrase-button:hover {
+    background: #00B8FB;
+    color: white;
+    border-color: #00B8FB;
+}
+
+#new-phrase-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #F98BB0;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    outline-style: solid;
+    font-size: 15px;
+    gap: 150px;
+}
+
+#phraseImage {
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#phrase {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.phrase-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 0.5rem 0;
+    color: #F98BB0;
+}
+
+.phrase-description {
+    font-size: 15px;
+    margin: 0;
+    color: #00B8FB;
+}
